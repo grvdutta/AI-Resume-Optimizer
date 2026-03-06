@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>AI Resume Optimizer</h1>
+
+            <div class="input-group">
+                <label for="resume-upload">Upload Resume (PDF only)</label>
+                <input type="file" id="resume-upload" accept=".pdf">
+            </div>
+
+            <div class="input-group">
+                <label for="job-description">Job Description</label>
+                <textarea id="job-description" placeholder="Paste the job description here..."></textarea>
+            </div>
+
+            <button id="analyze-btn">Analyze Resume</button>
+
+            <div id="loading" class="loading-indicator" style="display: none;">
+                <p>Analyzing resume with AI... Please wait.</p>
+                <div class="spinner"></div>
+            </div>
+
+            <div id="results" class="results-container">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
