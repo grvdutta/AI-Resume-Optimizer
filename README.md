@@ -124,4 +124,4 @@ This project focuses on learning:
 
 ## Author
 
-Computer Science Engineering (AI & ML) student exploring AI-assisted development tools and building practical full-stack projects.
+Gaurav Dutta
